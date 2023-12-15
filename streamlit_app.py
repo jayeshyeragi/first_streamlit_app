@@ -1,16 +1,16 @@
 import streamlit
 
-streamlit.title('My First Test Page')
+streamlit.header('🎅🎅 Merry Xmas 🎅🎅')
 
+streamlit.footer('📮 hello@gmail.com')
+
+streamlit.title('My First Test Page')
 streamlit.header('My Header#1')
 streamlit.text('✔️ My Text - 1')
 streamlit.text('✔️ My Text - 2')
 streamlit.text('✔️ My Text - 3')
 streamlit.text('✔️ My Text - 4')
 
-
 streamlit.header('❄️ My Header#2 ❄️')
 
-streamlit.header('🎅🎅 Merry Xmas 🎅🎅')
 
-streamlit.text('📮 hello@gmail.com')
