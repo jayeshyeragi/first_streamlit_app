@@ -12,3 +12,5 @@ streamlit.text('✔️ My Text - 4')
 streamlit.header('❄️ My Header#2 ❄️')
 
 streamlit.header('🎅🎅 Merry Xmas 🎅🎅')
+
+streamlit.text('📮 hello@gmail.com')
