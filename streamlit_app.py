@@ -23,3 +23,6 @@ fruitvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruitvice_response)
 
 streamlit.dataframe(fruits_to_show)
+
+fruitvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruitvice_response)
