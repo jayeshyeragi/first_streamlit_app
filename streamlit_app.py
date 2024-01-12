@@ -38,7 +38,8 @@ try:
   else:
       back_from_function = get_fruityvice_date(fruit_choice)
       streamlit.dataframe(back_from_function)
-  
+
+streamlit.stop()
 
 #streamlit.header("### Fruityvice ###")
 #streamlit.header("🍒 🍓 Fruityvice Fruit Advice! - Errorhandler 🍇 🍈")
@@ -53,7 +54,7 @@ try:
 # except URLError as e:
 #    streamlit.error()
 
-#streamlit.stop()
+
 
 #################################################################################
 streamlit.header("### Snowflake ###")
